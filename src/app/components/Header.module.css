@@ -1,11 +1,42 @@
+
 .header {
     height: 60px;
-    background-color: rgba(12, 193, 224, 0.671);
+    background-color:#00b3ff8e;
     padding: 10px;
+    display: flex;
+    flex-direction: row;
     
 }
 
 .Titulo{
-    text-align: center;
+    text-align: left;
+    font-size: 26px;
+    justify-content: center;
+    align-items: center;
+    font: bold; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+
+
 }
 
+.ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+    position: absolute;
+    left: calc(100% - 300px);
+    top: calc(100% - 500px);
+}
+
+.ul .li{
+    display: inline;
+    margin-left: 16px;
+    font-size: 20px;
+    font: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    align-items: center;
+    justify-content: center;
+
+}
