@@ -61,6 +61,37 @@
   gap: 15px;
 
 }
+.section02 {
+  height: 65%;
+  width: 20%;
+  background-color: aliceblue;
+  position: absolute;
+  left: 72%;
+  top: 23%;
+  display: flex;
+  align-items: center;
+
+
+}
+
+.section02 .Titulo02{
+  font-size: 1rem;
+  width: 70%;
+  align-items: center;
+  padding: 1rem;
+  margin: 0.5rem 3rem;
+
+}
+
+.section02 .btn{
+  padding: 0.6rem 2rem;
+  background-color: rgba(10, 184, 228, 0.979);
+  border-radius: 0.5rem;
+  margin: 1rem 7rem;
+  color: white;
+  border-color: #4b4a4a;
+}
+
 
 
 .main ol {
