@@ -2,6 +2,7 @@
 import { useEffect } from "react";
 import Image from "next/image";
 import styles from "./page.module.css";
+import Link from "next/link";
 
 export default function Home() {
   useEffect(() => {
@@ -79,7 +80,7 @@ export default function Home() {
             Confira os novos modelos de tecnologia nos sites e adquira a sua
             nova versão do ChatGPT. Continue alavancando a sua carreira.
           </h3>
-          <button className={styles.btn}>confira</button>
+          <button className={styles.btn}><a href={'https://g1.globo.com/tecnologia/'} className={styles.Link}>Acesse</a>  </button>
         </div>
       </section>
 
@@ -91,6 +92,19 @@ export default function Home() {
         </p>
         <button id="closePopup">Fechar</button>
       </div>
+      <footer className={styles.footer}>
+        <p>© 2025 - Todos os direitos reservados.</p>
+        <p>
+          Desenvolvido por{" "}
+          <a
+            href="https://seulink.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Seu Nome
+          </a>
+        </p>
+      </footer>
     </div>
   );
 }
