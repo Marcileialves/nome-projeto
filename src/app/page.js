@@ -1,6 +1,5 @@
 "use client";
 import { useEffect } from "react";
-import Image from "next/image";
 import styles from "./page.module.css";
 import Link from "next/link";
 
@@ -43,7 +42,7 @@ export default function Home() {
               visão e fala, consumindo muito menos energia que os computadores
               tradicionais.
             </p>
-          </div>
+          </div>  
         </div>
 
         <div className={styles.div01}>
@@ -92,19 +91,6 @@ export default function Home() {
         </p>
         <button id="closePopup">Fechar</button>
       </div>
-      <footer className={styles.footer}>
-        <p>© 2025 - Todos os direitos reservados.</p>
-        <p>
-          Desenvolvido por{" "}
-          <a
-            href="https://seulink.com"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Seu Nome
-          </a>
-        </p>
-      </footer>
     </div>
   );
 }
