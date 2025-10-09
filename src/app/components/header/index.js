@@ -15,10 +15,10 @@ export default function Header() {
                             <Link href="/">Home</Link>
                         </li>
                         <li className={styles.li}>
-                            <Link href="">Quiz</Link>
+                            <Link href="./page">Quiz</Link>
                         </li>
                         <li className={styles.li}>
-                            <Link href="">Contato</Link>    
+                            <Link href="/sobre">Sobre</Link>    
                         </li>
                     </ul>
                 </nav>
