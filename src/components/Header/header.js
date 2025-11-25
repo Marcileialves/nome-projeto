@@ -40,7 +40,7 @@ export default function Header() {
 
                     </li>
                     <li className={styles.li}>
-                        <span className ={styles.Lipai}>Médicos</span>
+                        <span className ={styles.Lipai}>Pacientes</span>
                         <ul className={styles.UlSubquatro}>
                             <li>Listar</li>
                             <li>Adicionar</li>
@@ -49,7 +49,7 @@ export default function Header() {
                         </ul>
                     </li>
                     <li className={styles.li}>
-                        <span className={styles.Lipai}>Médicos</span>
+                        <span className={styles.Lipai}>Consultas    </span>
                         <ul className={styles.UlSubcinco}>
                             <li>Listar</li>
                             <li>Adicionar</li>
