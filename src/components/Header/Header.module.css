@@ -1,0 +1,39 @@
+.Header{
+    display: flex;
+    padding: 0.5rem 2rem;
+    width: 100%;
+    background-color: rgb(15, 15, 15);
+    justify-content: space-between;
+}
+
+.NavMenu ul{
+    display: flex ;
+    gap: 4rem;
+    padding: 1rem;
+    align-items: center;
+}
+
+.NavMenu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+.NavMenu ul li{
+    list-style-type: none;
+    font-size: 1.05rem;
+    color: white;
+    padding: 0.305rem;
+    border-radius: 0.1rem;
+
+}
+
+.NavMenu ul li:hover{
+    background-color: rgba(138, 134, 134, 0.384);
+
+
+
+}
