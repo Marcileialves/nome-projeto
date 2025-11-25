@@ -2,31 +2,67 @@ import Image from "next/image";
 import styles from "./Header.module.css";
 
 export default function Header() {
+
+
+
   return (
     <div>
         <section className={styles.Header}>
             <Image src='/logoClinica.jpg' alt="Descrição de imagem" width={70} height={70}/>
             <nav className={styles.NavMenu}>
-                <ul>
-                    <li>
-                        Home
+                <ul className={styles.ul}>
+                    <li className={styles.li}> 
+                        <span className={styles.Lipai}>- Home - </span>
+                        <ul className={styles.UlSubdois}>
+                            <li>Listar</li>
+                            <li>Adicionar</li>
+                            <li>Editar</li>
+                            <li>Excluir</li>
+                        </ul>  
                     </li>
-                    <li>
-                        Especialidade    
+                    <li className={styles.li}> 
+                        <span className={styles.Lipai}>Especialidades</span>
+                        <ul className={styles.UlSubdois}>
+                            <li>Listar</li>
+                            <li>Adicionar</li>
+                            <li>Editar</li>
+                            <li>Excluir</li>
+                        </ul>  
                     </li>
-                    <li>
-                        Médicos
+                    <li className={styles.li}>
+                    <span className={styles.Lipai}>Médicos</span>
+                        <ul className={styles.UlSubtres}>
+                            <li>Listar</li>
+                            <li>Adicionar</li>
+                            <li>Editar</li>
+                            <li>Excluir</li>
+                        </ul>
+
                     </li>
-                    <li>
-                        Paciente
+                    <li className={styles.li}>
+                        <span className ={styles.Lipai}>Médicos</span>
+                        <ul className={styles.UlSubquatro}>
+                            <li>Listar</li>
+                            <li>Adicionar</li>
+                            <li>Editar</li>
+                            <li>Excluir</li>
+                        </ul>
                     </li>
-                    <li>
-                        Consultas
+                    <li className={styles.li}>
+                        <span className={styles.Lipai}>Médicos</span>
+                        <ul className={styles.UlSubcinco}>
+                            <li>Listar</li>
+                            <li>Adicionar</li>
+                            <li>Editar</li>
+                            <li>Excluir</li>
+                        </ul>
                     </li>
                 </ul>
             </nav>
 
         </section>
+
+
     </div>
   );
 }

@@ -6,11 +6,12 @@
     justify-content: space-between;
 }
 
-.NavMenu ul{
+.NavMenu .ul{
     display: flex ;
     gap: 4rem;
     padding: 1rem;
-    align-items: center;
+    gap: 3rem;
+    padding: 0.5rem;
 }
 
 .NavMenu{
@@ -22,18 +23,53 @@
 
 
 
-.NavMenu ul li{
+.NavMenu .ul .li{
     list-style-type: none;
     font-size: 1.05rem;
     color: white;
     padding: 0.305rem;
     border-radius: 0.1rem;
+    background-color: rgb(0, 0, 0);
+
 
 }
 
-.NavMenu ul li:hover{
+.NavMenu .ul .li:hover{
     background-color: rgba(138, 134, 134, 0.384);
 
 
 
 }
+
+.UlSubum, .UlSubdois, .UlSubtres, .UlSubquatro, .UlSubcinco{
+    position: absolute;;
+    background-color: black;
+    top: 4rem;
+    width: 7rem;
+    border-radius: 0.5rem;
+
+}
+
+.UlSubum{
+    margin-right: 5rem;
+}
+
+.UlSub li, .UlSubdois li, .UlSubtres li, .UlSubquatro li, .UlSubcinco li{
+    margin: 0;
+    padding: 0.5rem;
+    background-color: rgba(2, 2, 2, 0.274);
+    list-style-type: none;
+    border-radius: 5px;
+    border-bottom: 1px solid rgb(146, 144, 144);
+    display: none;
+
+
+}
+
+.UlSub li:hover, .UlSubdois li:hover, .UlSubtres li:hover, .UlSubquatro li:hover, .UlSubcinco li:hover{
+    background-color: rgba(138, 134, 134, 0.384);
+
+
+}
+
+
