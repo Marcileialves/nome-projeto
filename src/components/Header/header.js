@@ -1,6 +1,7 @@
 import Image from "next/image";
 import styles from "./Header.module.css";
 
+
 export default function Header() {
 
 
@@ -13,12 +14,6 @@ export default function Header() {
                 <ul className={styles.ul}>
                     <li className={styles.li}> 
                         <span className={styles.Lipai}>- Home - </span>
-                        <ul className={styles.UlSubdois}>
-                            <li>Listar</li>
-                            <li>Adicionar</li>
-                            <li>Editar</li>
-                            <li>Excluir</li>
-                        </ul>  
                     </li>
                     <li className={styles.li}> 
                         <span className={styles.Lipai}>Especialidades</span>
