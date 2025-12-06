@@ -32,7 +32,6 @@ export default function ListaConsultas() {
   useEffect(() => {
     carregarConsultas();
   }, [consultas]);
-  console.log(consultas);
 
   return (
     <main style={{ padding: "20px" }}>

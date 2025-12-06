@@ -105,15 +105,6 @@ export default function CadastroConsultas() {
 
     setLoading(false);
   }
-  console.log(medicos);
-  console.log(pacientes);
-  console.log(idPaciente);
-  console.log(idMedico);
-  console.log(data);  
-  console.log(hora);
-  console.log(tipo);
-  console.log(msg);
-
   return (
     <main className={styles.container}>
       <h1 className={styles.title}>Cadastrar Consulta</h1>
