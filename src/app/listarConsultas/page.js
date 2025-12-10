@@ -59,8 +59,8 @@ export default function ListaConsultas() {
             {consultas.map((c) => (
               <tr key={c.id}>
                 <td style={td}>{c.id}</td>
-                <td style={td}>{c.paciente?.nome}</td>
-                <td style={td}>{c.medico?.nome}</td>
+                <td style={td}>{c.paciente}</td>
+                <td style={td}>{c.medico}</td>
                 <td style={td}>{c.data}</td>
                 <td style={td}>{c.hora}</td>
                 <td style={td}>{c.tipo}</td>
